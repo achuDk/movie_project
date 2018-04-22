@@ -1,6 +1,6 @@
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
-# __author__ = "Q1mi"
-# Date: 2018/4/22
+# coding:utf8
 
+from flask import Flask
+import sqlalchemy
 
+app = Flask(__name__)
